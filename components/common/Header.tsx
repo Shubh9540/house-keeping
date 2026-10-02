@@ -98,13 +98,13 @@ export const Header = ({ data }: { data?: HeaderData }) => {
 
             {/* Center Logo */}
             <div className={`absolute left-1/2 top-1/2 -translate-x-1/2 ${isScrolled ? 'translate-y-[-20%]' : '-translate-y-[65%]'} z-20 flex-shrink-0 transition-all duration-300`}>
-              <div className={`${isScrolled ? 'w-[140px] h-[140px]' : 'w-[120px] h-[120px] xl:w-[140px] xl:h-[140px]'} bg-white rounded-full flex items-center justify-center shadow-[0_5px_15px_rgba(0,0,0,0.15)] border-4 border-white overflow-hidden transition-all duration-300`}>
+              <Link href="/" className={`${isScrolled ? 'w-[140px] h-[140px]' : 'w-[120px] h-[120px] xl:w-[140px] xl:h-[140px]'} bg-white rounded-full flex items-center justify-center shadow-[0_5px_15px_rgba(0,0,0,0.15)] border-4 border-white overflow-hidden transition-all duration-300 block`}>
                 {data.logo ? (
                   <img src={data.logo} alt={data.logoAlt} className="w-[85%] h-auto object-contain" />
                 ) : (
                   <img src="/main logo/header logo.webp" alt="CleanNest" className="w-[85%] object-contain" />
                 )}
-              </div>
+              </Link>
             </div>
 
             {/* Desktop Right Nav Links & Button */}
