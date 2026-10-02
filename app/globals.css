@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Fonts */
+  --font-primary: var(--font-poppins), sans-serif;
+  --font-heading: var(--font-poppins), sans-serif;
+
+  /* Global Colors — CleanNest Design */
+  --color-bg-main: #ffffff;
+  /* White background */
+  --color-bg-card: #ffffff;
+  /* White for cards */
+  --color-bg-alt: #f4f8fc;
+  /* Very light blue-gray for alternating sections */
+  --color-primary: #052e6d;
+  /* Dark Navy Blue — primary brand color */
+  --color-accent: #ffcb05;
+  /* Yellow for buttons and highlights */
+  --color-text: #333333;
+  /* Dark text */
+  --color-text-light: #666666;
+  /* Gray for secondary text */
+  --color-border: #e5e5e5;
+  /* Subtle light border */
+}
+
+body {
+  color: var(--color-text);
+  background-color: var(--color-bg-main);
+}
