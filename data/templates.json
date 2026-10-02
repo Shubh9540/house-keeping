@@ -44,11 +44,6 @@
           "url": "/services"
         },
         {
-          "id": "ql5",
-          "label": "Why Choose Us",
-          "url": "/why-choose-us"
-        },
-        {
           "id": "ql6",
           "label": "Contact Us",
           "url": "/contact"
@@ -99,7 +94,7 @@
       "contactInfo": {
         "address": "123 Main St, New York, NY, USA",
         "phone": "+1 000000000",
-        "email": "info@xyz"
+        "email": "info@xyz.com"
       },
       "instagram": [
         "/service/1.jpg",
@@ -158,19 +153,13 @@
                   "value": "+1 000000000"
                 },
                 {
-                  "id": "ci-hours",
-                  "icon": "FiClock",
-                  "label": "Monday - Saturday:",
-                  "value": "9am - 7pm"
-                }
-              ],
-              "contactInfoRight": [
-                {
                   "id": "ci-email",
                   "icon": "FiMail",
                   "label": "Mail to us:",
-                  "value": "info@xyz"
-                },
+                  "value": "info@xyz.com"
+                }
+              ],
+              "contactInfoRight": [
                 {
                   "id": "ci-location",
                   "icon": "FiMapPin",
@@ -261,7 +250,7 @@
                 }
               ],
               "videoThumbnail": "/about/small right.png",
-              "videoUrl": "#",
+              "videoUrl": "https://www.youtube.com/embed/5qap5aO4i9A?autoplay=1",
               "videoText": "See How We Make\nSpaces Cleaner",
               "videoSubtext": "Watch our short video to learn\nmore about our services.",
               "button": {
@@ -705,7 +694,7 @@
                 "phoneTitle": "Call Us",
                 "phone": "+1 000000000",
                 "emailTitle": "Email Us",
-                "email": "info@xyz",
+                "email": "info@xyz.com",
                 "addressTitle": "Our Location",
                 "address": "123 Main St, New York, NY, USA",
                 "hoursTitle": "Working Hours",

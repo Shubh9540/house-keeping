@@ -112,15 +112,15 @@ export const TestimonialSection = ({ data }: { data?: TestimonialsData }) => {
           {/* Navigation Controls */}
           <button
             onClick={prevSlide}
-            className="absolute -left-4 lg:-left-20 top-1/2 -translate-y-1/2 w-12 h-12 bg-[#0057ff] rounded-full shadow-md flex items-center justify-center text-white hover:bg-blue-700 transition-colors z-10 opacity-0 group-hover:opacity-100 md:opacity-100"
+            className="absolute left-2 lg:-left-16 top-1/2 -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 bg-[#0057ff] rounded-full shadow-md flex items-center justify-center text-white hover:bg-blue-700 transition-colors z-10 opacity-100 lg:opacity-0 group-hover:opacity-100"
           >
-            <FaChevronLeft className="text-lg mr-1" />
+            <FaChevronLeft className="text-sm md:text-lg mr-1" />
           </button>
           <button
             onClick={nextSlide}
-            className="absolute -right-4 lg:-right-20 top-1/2 -translate-y-1/2 w-12 h-12 bg-[#0057ff] rounded-full shadow-md flex items-center justify-center text-white hover:bg-blue-700 transition-colors z-10 opacity-0 group-hover:opacity-100 md:opacity-100"
+            className="absolute right-2 lg:-right-16 top-1/2 -translate-y-1/2 w-10 h-10 md:w-12 md:h-12 bg-[#0057ff] rounded-full shadow-md flex items-center justify-center text-white hover:bg-blue-700 transition-colors z-10 opacity-100 lg:opacity-0 group-hover:opacity-100"
           >
-            <FaChevronRight className="text-lg ml-1" />
+            <FaChevronRight className="text-sm md:text-lg ml-1" />
           </button>
         </div>
 

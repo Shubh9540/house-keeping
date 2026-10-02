@@ -26,7 +26,7 @@ export default function Page() {
       <Breadcrumb data={sectionData.aboutBreadcrumb?.variants?.CleanNestAboutBreadcrumb1} />
       
       {/* About Us Section */}
-      <AboutUsSection data={sectionData.AboutUs?.variants?.CleanNestAboutUs1} />
+      <AboutUsSection data={sectionData.AboutUs?.variants?.CleanNestAboutUs1} hideButton={true} />
 
       {/* Why Choose Us Section */}
       <WhyChooseUsSection data={sectionData.whyChooseUs?.variants?.CleanNestWhyChooseUs1} />

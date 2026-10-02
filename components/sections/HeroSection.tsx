@@ -12,6 +12,8 @@ export const HeroSection = ({ data }: { data?: HeroData }) => {
     >
       {/* Overlay for mobile readability only */}
       <div className="absolute inset-0 bg-white/85 md:hidden z-0"></div>
+      {/* Gradient for tablet/desktop text readability */}
+      <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/70 to-transparent hidden md:block z-0 pointer-events-none"></div>
 
       <div className="max-w-[1250px] mx-auto px-4 md:px-8 relative z-10 flex flex-col justify-center h-full">
         
