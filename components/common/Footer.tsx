@@ -99,9 +99,9 @@ export const Footer = ({ data }: { data?: FooterData }) => {
             <h3 className="text-lg font-bold text-white mb-4">Gallery</h3>
             <div className="grid grid-cols-3 gap-2">
               {data.instagram.map((img, i) => (
-                <div key={i} className="aspect-square bg-gray-800 rounded-md overflow-hidden">
+                <Link key={i} href="/gallery" className="block aspect-square bg-gray-800 rounded-md overflow-hidden">
                   <img src={img} alt="Gallery image" className="w-full h-full object-cover opacity-80 hover:opacity-100 hover:scale-110 transition-all duration-300 cursor-pointer" />
-                </div>
+                </Link>
               ))}
             </div>
           </div>
