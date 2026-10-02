@@ -23,7 +23,7 @@ export default function Page() {
       <TopBar data={sectionData.TopBar?.variants?.CleanNestTopBar1} />
       <MiddleBar data={sectionData.Header?.variants?.CleanNestHeader1} />
       <Header data={sectionData.Header?.variants?.CleanNestHeader1} />
-      <Breadcrumb data={sectionData.aboutBreadcrumb?.variants?.CleanNestAboutBreadcrumb1} />
+      <Breadcrumb data={commonData.aboutBreadcrumb} />
       
       {/* About Us Section */}
       <AboutUsSection data={sectionData.AboutUs?.variants?.CleanNestAboutUs1} hideButton={true} />

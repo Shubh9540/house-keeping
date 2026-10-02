@@ -104,6 +104,78 @@
         "/service/5.jpg",
         "/service/6.jpg"
       ]
+    },
+    "aboutBreadcrumb": {
+      "title": "About Us",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "About Us"
+        }
+      ]
+    },
+    "servicesBreadcrumb": {
+      "title": "Our Services",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Services"
+        }
+      ]
+    },
+    "galleryBreadcrumb": {
+      "title": "Our Gallery",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Gallery"
+        }
+      ]
+    },
+    "faqBreadcrumb": {
+      "title": "Frequently Asked Questions",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "FAQ"
+        }
+      ]
+    },
+    "contactBreadcrumb": {
+      "title": "Contact Us",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Contact Us"
+        }
+      ]
+    },
+    "quoteBreadcrumb": {
+      "title": "Get a Quote",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Get a Quote"
+        }
+      ]
     }
   },
   "categories": {
@@ -384,22 +456,6 @@
             }
           }
         },
-        "aboutBreadcrumb": {
-          "variants": {
-            "CleanNestAboutBreadcrumb1": {
-              "title": "About Us",
-              "paths": [
-                {
-                  "label": "Home",
-                  "url": "/"
-                },
-                {
-                  "label": "About Us"
-                }
-              ]
-            }
-          }
-        },
         "whyChooseUs": {
           "variants": {
             "CleanNestWhyChooseUs1": {
@@ -452,22 +508,6 @@
               "imageMain": "/choose/02_main_cleaner_circle.png",
               "badgeTitle": "Clean Spaces",
               "badgeText": "Happier Lives"
-            }
-          }
-        },
-        "galleryBreadcrumb": {
-          "variants": {
-            "CleanNestGalleryBreadcrumb1": {
-              "title": "Our Gallery",
-              "paths": [
-                {
-                  "label": "Home",
-                  "url": "/"
-                },
-                {
-                  "label": "Gallery"
-                }
-              ]
             }
           }
         },
@@ -583,38 +623,6 @@
             }
           }
         },
-        "servicesBreadcrumb": {
-          "variants": {
-            "CleanNestServicesBreadcrumb1": {
-              "title": "Our Services",
-              "paths": [
-                {
-                  "label": "Home",
-                  "url": "/"
-                },
-                {
-                  "label": "Services"
-                }
-              ]
-            }
-          }
-        },
-        "faqBreadcrumb": {
-          "variants": {
-            "CleanNestFaqBreadcrumb1": {
-              "title": "Frequently Asked Questions",
-              "paths": [
-                {
-                  "label": "Home",
-                  "url": "/"
-                },
-                {
-                  "label": "FAQ"
-                }
-              ]
-            }
-          }
-        },
         "faq": {
           "variants": {
             "CleanNestFaq1": {
@@ -667,22 +675,6 @@
             }
           }
         },
-        "contactBreadcrumb": {
-          "variants": {
-            "CleanNestContactBreadcrumb1": {
-              "title": "Contact Us",
-              "paths": [
-                {
-                  "label": "Home",
-                  "url": "/"
-                },
-                {
-                  "label": "Contact Us"
-                }
-              ]
-            }
-          }
-        },
         "contact": {
           "variants": {
             "CleanNestContact1": {
@@ -715,22 +707,6 @@
                 ]
               },
               "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.2528000654!2d-74.1444874457788!3d40.69766374865766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
-            }
-          }
-        },
-        "quoteBreadcrumb": {
-          "variants": {
-            "CleanNestQuoteBreadcrumb1": {
-              "title": "Get a Quote",
-              "paths": [
-                {
-                  "label": "Home",
-                  "url": "/"
-                },
-                {
-                  "label": "Get a Quote"
-                }
-              ]
             }
           }
         },
@@ -772,71 +748,96 @@
             }
           }
         }
+      },
+      "templateComponents": {
+        "shared": {
+          "Topbar": "CleanNestTopBar1",
+          "Header": "CleanNestHeader1",
+          "Footer": "CleanNestFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "HeroSection",
+                "component": "CleanNestHero1"
+              },
+              {
+                "key": "AboutUs",
+                "component": "CleanNestAboutUs1"
+              },
+              {
+                "key": "Services",
+                "component": "CleanNestServices1"
+              },
+              {
+                "key": "Testimonials",
+                "component": "CleanNestTestimonials1"
+              }
+            ]
+          },
+          "about": {
+            "components": [
+              {
+                "key": "AboutUs",
+                "component": "CleanNestAboutUs1"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "CleanNestWhyChooseUs1"
+              }
+            ]
+          },
+          "services": {
+            "components": [
+              {
+                "key": "Services",
+                "component": "CleanNestServices1"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "CleanNestWhyChooseUs1"
+              }
+            ]
+          },
+          "gallery": {
+            "components": [
+              {
+                "key": "Gallery",
+                "component": "CleanNestGallery1"
+              },
+              {
+                "key": "VideoGallery",
+                "component": "CleanNestVideoGallery1"
+              }
+            ]
+          },
+          "faq": {
+            "components": [
+              {
+                "key": "Faq",
+                "component": "CleanNestFaq1"
+              }
+            ]
+          },
+          "contact": {
+            "components": [
+              {
+                "key": "Contact",
+                "component": "CleanNestContact1"
+              }
+            ]
+          },
+          "quote": {
+            "components": [
+              {
+                "key": "Quote",
+                "component": "CleanNestQuote1"
+              }
+            ]
+          }
+        }
       }
-    }
-  },
-  "pages": {
-    "gallery": {
-      "title": "Gallery",
-      "path": "/gallery",
-      "components": [
-        "TopBar",
-        "MiddleBar",
-        "Header",
-        "galleryBreadcrumb",
-        "gallery",
-        "videoGallery",
-        "Footer"
-      ]
-    },
-    "services": {
-      "title": "Services",
-      "path": "/services",
-      "components": [
-        "TopBar",
-        "MiddleBar",
-        "Header",
-        "servicesBreadcrumb",
-        "Services",
-        "whyChooseUs",
-        "Footer"
-      ]
-    },
-    "faq": {
-      "title": "FAQ",
-      "path": "/faq",
-      "components": [
-        "TopBar",
-        "MiddleBar",
-        "Header",
-        "faqBreadcrumb",
-        "faq",
-        "Footer"
-      ]
-    },
-    "contact": {
-      "title": "Contact Us",
-      "path": "/contact",
-      "components": [
-        "TopBar",
-        "MiddleBar",
-        "Header",
-        "contactBreadcrumb",
-        "contact",
-        "Footer"
-      ]
-    },
-    "quote": {
-      "title": "Get a Quote",
-      "path": "/quote",
-      "components": [
-        "TopBar",
-        "MiddleBar",
-        "Header",
-        "quoteBreadcrumb",
-        "quote",
-        "Footer"
-      ]
     }
   }
 }

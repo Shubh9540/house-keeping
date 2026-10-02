@@ -22,7 +22,7 @@ export default function ServicesPage() {
       <TopBar data={sectionData.TopBar?.variants?.CleanNestTopBar1} />
       <MiddleBar data={sectionData.Header?.variants?.CleanNestHeader1} />
       <Header data={sectionData.Header?.variants?.CleanNestHeader1} />
-      <Breadcrumb data={sectionData.servicesBreadcrumb?.variants?.CleanNestServicesBreadcrumb1} />
+      <Breadcrumb data={commonData.servicesBreadcrumb} />
       
       {/* Services Section */}
       <ServicesSection data={sectionData.Services?.variants?.CleanNestServices1} hideButton={true} />

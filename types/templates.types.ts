@@ -211,12 +211,12 @@ export interface QuoteData {
 }
 
 export interface CleanNestTemplateData {
-  common: {
+  common: {\n    aboutBreadcrumb?: any;\n    servicesBreadcrumb?: any;\n    galleryBreadcrumb?: any;\n    faqBreadcrumb?: any;\n    contactBreadcrumb?: any;\n    quoteBreadcrumb?: any;
     Footer?: FooterData;
   };
   categories: {
     CleanNest: {
-      sections: {
+      templateComponents?: any;\n        sections: {
         TopBar?: { variants?: { CleanNestTopBar1?: TopBarData } };
         Header?: { variants?: { CleanNestHeader1?: HeaderData } };
         Hero?: { variants?: { CleanNestHero1?: HeroData } };
@@ -224,17 +224,17 @@ export interface CleanNestTemplateData {
         Services?: { variants?: { CleanNestServices1?: ServicesData } };
         Testimonials?: { variants?: { CleanNestTestimonials1?: TestimonialsData } };
         whyChooseUs?: { variants?: { CleanNestWhyChooseUs1?: WhyChooseUsData } };
-        aboutBreadcrumb?: { variants?: { CleanNestAboutBreadcrumb1?: any } };
-        servicesBreadcrumb?: { variants?: { CleanNestServicesBreadcrumb1?: any } };
+        
+        
         gallery?: { variants?: { CleanNestGallery1?: GalleryData } };
         videoGallery?: { variants?: { CleanNestVideoGallery1?: VideoGalleryData } };
-        galleryBreadcrumb?: { variants?: { CleanNestGalleryBreadcrumb1?: any } };
+        
         faq?: { variants?: { CleanNestFaq1?: FaqData } };
-        faqBreadcrumb?: { variants?: { CleanNestFaqBreadcrumb1?: any } };
+        
         contact?: { variants?: { CleanNestContact1?: ContactData } };
-        contactBreadcrumb?: { variants?: { CleanNestContactBreadcrumb1?: any } };
+        
         quote?: { variants?: { CleanNestQuote1?: QuoteData } };
-        quoteBreadcrumb?: { variants?: { CleanNestQuoteBreadcrumb1?: any } };
+        
       };
     };
   };

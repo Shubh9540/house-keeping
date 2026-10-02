@@ -22,7 +22,7 @@ export default function FaqPage() {
       <TopBar data={sectionData.TopBar?.variants?.CleanNestTopBar1} />
       <MiddleBar data={sectionData.Header?.variants?.CleanNestHeader1} />
       <Header data={sectionData.Header?.variants?.CleanNestHeader1} />
-      <Breadcrumb data={sectionData.faqBreadcrumb?.variants?.CleanNestFaqBreadcrumb1} />
+      <Breadcrumb data={commonData.faqBreadcrumb} />
       
       {/* FAQ Section */}
       <FaqSection data={sectionData.faq?.variants?.CleanNestFaq1} />

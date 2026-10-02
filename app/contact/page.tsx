@@ -22,7 +22,7 @@ export default function ContactPage() {
       <TopBar data={sectionData.TopBar?.variants?.CleanNestTopBar1} />
       <MiddleBar data={sectionData.Header?.variants?.CleanNestHeader1} />
       <Header data={sectionData.Header?.variants?.CleanNestHeader1} />
-      <Breadcrumb data={sectionData.contactBreadcrumb?.variants?.CleanNestContactBreadcrumb1} />
+      <Breadcrumb data={commonData.contactBreadcrumb} />
       
       {/* Contact Section */}
       <ContactSection data={sectionData.contact?.variants?.CleanNestContact1} />

@@ -23,7 +23,7 @@ export default function GalleryPage() {
       <TopBar data={sectionData.TopBar?.variants?.CleanNestTopBar1} />
       <MiddleBar data={sectionData.Header?.variants?.CleanNestHeader1} />
       <Header data={sectionData.Header?.variants?.CleanNestHeader1} />
-      <Breadcrumb data={sectionData.galleryBreadcrumb?.variants?.CleanNestGalleryBreadcrumb1} />
+      <Breadcrumb data={commonData.galleryBreadcrumb} />
       
       {/* Image Gallery */}
       <GallerySection data={sectionData.gallery?.variants?.CleanNestGallery1} />
