@@ -9,22 +9,22 @@
         {
           "id": "fs1",
           "icon": "FaFacebookF",
-          "url": "#"
+          "url": "https://www.facebook.com"
         },
         {
           "id": "fs2",
           "icon": "FaInstagram",
-          "url": "#"
+          "url": "https://www.instagram.com"
         },
         {
           "id": "fs3",
           "icon": "FaLinkedinIn",
-          "url": "#"
+          "url": "https://www.linkedin.com"
         },
         {
           "id": "fs4",
           "icon": "FaYoutube",
-          "url": "#"
+          "url": "https://www.youtube.com"
         }
       ],
       "quickLinks": [
@@ -119,22 +119,22 @@
                 {
                   "id": "tb-fb",
                   "icon": "FaFacebookF",
-                  "url": "#"
+                  "url": "https://www.facebook.com"
                 },
                 {
                   "id": "tb-ig",
                   "icon": "FaInstagram",
-                  "url": "#"
+                  "url": "https://www.instagram.com"
                 },
                 {
                   "id": "tb-in",
                   "icon": "FaLinkedinIn",
-                  "url": "#"
+                  "url": "https://www.linkedin.com"
                 },
                 {
                   "id": "tb-yt",
                   "icon": "FaYoutube",
-                  "url": "#"
+                  "url": "https://www.youtube.com"
                 }
               ]
             }
