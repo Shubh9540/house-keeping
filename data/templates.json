@@ -44,11 +44,6 @@
           "url": "/services"
         },
         {
-          "id": "ql4",
-          "label": "Blog",
-          "url": "/blog"
-        },
-        {
           "id": "ql5",
           "label": "Why Choose Us",
           "url": "/why-choose-us"
@@ -61,7 +56,7 @@
         {
           "id": "ql7",
           "label": "Get a Quote",
-          "url": "/get-a-quote"
+          "url": "/quote"
         },
         {
           "id": "ql8",
@@ -99,21 +94,6 @@
           "id": "sl6",
           "label": "Sofa & Upholstery Cleaning",
           "url": "/services/sofa"
-        },
-        {
-          "id": "sl7",
-          "label": "Carpet Cleaning",
-          "url": "/services/carpet"
-        },
-        {
-          "id": "sl8",
-          "label": "Kitchen Cleaning",
-          "url": "/services/kitchen"
-        },
-        {
-          "id": "sl9",
-          "label": "Bathroom Cleaning",
-          "url": "/services/bathroom"
         }
       ],
       "contactInfo": {
@@ -213,23 +193,18 @@
                   "id": "nl-services",
                   "label": "Services",
                   "url": "/services"
-                },
-                {
-                  "id": "nl-gallery",
-                  "label": "Gallery",
-                  "url": "/gallery"
                 }
               ],
               "navLinksRight": [
                 {
+                  "id": "nl-gallery",
+                  "label": "Gallery",
+                  "url": "/gallery"
+                },
+                {
                   "id": "nl-faq",
                   "label": "FAQ",
                   "url": "/faq"
-                },
-                {
-                  "id": "nl-why",
-                  "label": "Why Choose Us",
-                  "url": "/why-choose-us"
                 },
                 {
                   "id": "nl-contact",

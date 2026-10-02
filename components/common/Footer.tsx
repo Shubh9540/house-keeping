@@ -17,7 +17,7 @@ export const Footer = ({ data }: { data?: FooterData }) => {
   if (!data) return null;
 
   return (
-    <footer className="w-full bg-[var(--color-primary)] text-gray-300 relative pt-32 md:pt-40 pb-8 mt-16">
+    <footer className="w-full bg-[var(--color-primary)] text-gray-300 relative pt-32 md:pt-40 pb-8 mt-4 md:mt-8">
       
       {/* Top Floating Logo */}
       <div className="absolute left-1/2 -top-16 -translate-x-1/2 bg-white w-40 h-40 rounded-full flex items-center justify-center shadow-xl border-4 border-white z-10 overflow-hidden">
